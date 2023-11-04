@@ -1,0 +1,10 @@
+.venv/
+.idea/
+.vscode/
+**/__pycache__/
+db.sqlite3
+.DS_Store
+.env.local
+main.sock
+venv
+media
