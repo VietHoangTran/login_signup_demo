@@ -4,5 +4,6 @@ from api import views
 urlpatterns = [
     path('signup/', views.signup),
     path('login/', views.login),
-    path('test_token/', views.test_token),
+    path('logout/', views.logout_user),
+    path('get_info/', views.get_info),
 ]
